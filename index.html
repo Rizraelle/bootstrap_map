@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap site with Google map</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="container container-main">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="caret"></span>
+          </button>
+          <a href="#" class="navbar-brand header_link">logo</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="header_link">About</a></li>
+            <li><a href="#team" class="header_link">Team</a></li>
+            <li><a href="#map" class="header_link">map</a></li>
+            <li><a href="#" class="header_link">sign in</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="headerwrap">
+      <div class="container container-main">
+        <div class="anchor" id="home"></div>
+        <div class="row centered">
+          <div class="col-lg-10 col-xs-12 col-lg-offset-1">
+            <h1 class="main-head"><i class="fa fa-star fa-1" aria-hidden="true"></i> Our Mission <i class="fa fa-star fa-1" aria-hidden="true"></i></h1>
+            <p class="main-text">Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container container-main">
+      <div class="row centered">
+        <div class="anchor" id="about"></div>
+          <div class="col-lg-10 col-xs-12 col-lg-offset-1">
+            <h1 class="about-head">About</h1>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          </div>
+      </div>
+    </div>
+    <div id="teamwork">
+      <div class="container container-main">
+        <div class="row centered">
+          <div class="anchor" id="team"></div>
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1 class="team-head">Team</h1>
+              <div class="col-lg-4">
+                <a href="">
+                  <img src="img/team_photo_1.png">
+                </a>
+                <div class="team_name">John Doe</div>
+                <div class="team_pro">Founder & CEO</div>
+              </div>
+              <div class="col-lg-4">
+                <a href="">
+                  <img src="img/team_photo_2.png">
+                </a>
+                <div class="team_name">John Doe</div>
+                <div class="team_pro">Co-founder</div>
+              </div>
+              <div class="col-lg-4">
+                <a href="">
+                  <img src="img/team_photo_3.png">
+                </a>
+                <div class="team_name">John Doe</div>
+                <div class="team_pro">investor</div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 team_work">work with us</div>
+        </div>
+      </div>
+    </div>
+    <div id="map">
+      <div class="container container-main">
+        <div class="row centered">
+          <div class="anchor"></div>
+          <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBW4vpqLi8YuMwMPZH9HVAaXur0G-pRQQ&callback=initMap">
+    </script>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container container-main">
+        <div class="row centered underline">
+          <div class="anchor"></div>
+          <div class="col-lg-1"><a href="" class="footer_link">About</a></div>
+          <div class="col-lg-1"><a href="" class="footer_link">FAQ</a></div>
+          <div class="col-lg-2"><a href="" class="footer_link">Work with us</a></div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2">
+            <a href=""><div class="soc_icon"><i class="fa fa-envelope" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+            <a href=""><div class="soc_icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+          </div>
+        </div>
+        <div class="terms">© Company.LLC 2014</div>
+        <div class="terms">Terms and Conditions</div>
+        <div class="terms">Privacy Policy</div>
+      </div>
+    </div>
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
